@@ -12,4 +12,5 @@ diff_months = (int(today[1]) - int(user_date[1])) * 30
 diff_days = int(today[0]) - int(user_date[0])
 diff_dates = diff_years + diff_months + diff_days
 
-print(f'Difference between current date and your birthday is {diff_dates // 365} years and {diff_dates % 365} days')
+print(f'Difference between current date and your birthday is '
+      f'{diff_dates // 365} years and {diff_dates % 365} days')

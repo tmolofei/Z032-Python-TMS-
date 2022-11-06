@@ -15,5 +15,3 @@ separator = X * N
 separated_text = f'{text_even_symbol}{separator}{text_odd_symbol}'
 
 print(user_text, separated_text, '!'*N, sep="\n")
-
-
