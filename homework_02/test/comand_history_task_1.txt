@@ -1,0 +1,8 @@
+  322  mkdir test
+  323  cd test
+  324  mkdir test_1
+  325  cd test_1/
+  326  touch main.py
+  327  cd ..
+  328  rm -rf test_1/
+  329  history 8 > comand_history_task_1.txt

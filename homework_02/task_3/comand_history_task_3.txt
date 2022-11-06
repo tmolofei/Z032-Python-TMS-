@@ -1,0 +1,9 @@
+  382  mkdir task_3
+  383  cd task_3
+  384  python3 -m venv .venv
+  385  source .venv/bin/activate
+  386  touch main.py
+  387  nano main.py
+  388  chmod +x main.py
+  389  python3 ./main.py
+  390  history 9 > comand_history_task_3.txt

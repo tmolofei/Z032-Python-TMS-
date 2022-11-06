@@ -1,0 +1,10 @@
+  350  mkdir task_2
+  351  cd task_2/
+  352  python3 -m venv .venv
+  353  source .venv/bin/activate
+  354  pip install requests
+  355  pip install requests==2.26.0
+  356  pip install lxml
+  357  pip freeze > requirements.txt
+  358  deactivate
+  359  history 10 > comand_history_task_2.txt
