@@ -4,10 +4,10 @@
 # Сумма чисел → 6
 
 user_num = int(input('Enter any number: '))
-count = 0
+COUNT = 0
 
 while user_num > 0:
-    count += user_num % 10
+    COUNT += user_num % 10
     user_num //= 10
 
-print(f'Sum of digits of entered number is {count}')
+print(f'Sum of digits of entered number is {COUNT}')
