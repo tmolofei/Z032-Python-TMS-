@@ -16,6 +16,6 @@ else:
         if user_num == 'stop':
             print(f'Hidden number is {num}')
             break
-        elif int(user_num) == num:
+        if int(user_num) == num:
             print(f"You guessed a number, it's {num}")
         continue
