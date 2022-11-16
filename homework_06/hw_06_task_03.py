@@ -8,7 +8,7 @@ def num_in_tuple():
     user_num = input()
     for i in user_num:
         user_list.append(int(i))
-    print(tuple(user_list))
+    return tuple(user_list)
 
 
-num_in_tuple()
+print(num_in_tuple())
