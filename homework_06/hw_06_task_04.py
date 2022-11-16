@@ -8,8 +8,8 @@ new_list = []
 
 def new_user_list():
     user_list = list(map(int, input().split()))
-    for i, _ in enumerate(user_list):
-        new_list.append(sum(user_list) - user_list[i])
+    for i, value in enumerate(user_list):
+        new_list.append(sum(user_list) - value)
     return new_list
 
 
