@@ -4,8 +4,10 @@
 
 
 while True:
-    user_age = int(input('Enter your age: '))
-    if user_age > 18:
+    user_age = input('Enter your age: ')
+    if str(user_age).lower() == 'stop':
+        break
+    elif int(user_age) > 18:
         print('You are welcome. You have an access to this site')
     else:
         print("You are too young, you can't visit this site")
