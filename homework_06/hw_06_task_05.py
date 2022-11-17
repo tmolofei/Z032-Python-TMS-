@@ -10,13 +10,12 @@ result = {}
 
 
 def join_dict(*args):
-    for i in args:
-        for k, v in i.items():
-            print(k, v)
-            if k not in result:
-                result.setdefault(k, v)
-            elif k in result:
-                result[k] += v
+    for item in args:
+        for key, value in item.items():
+            if key not in result:
+                result.setdefault(key, value)
+            elif key in result:
+                result[key] += value
     print(result)
 
 
