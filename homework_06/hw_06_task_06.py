@@ -2,12 +2,12 @@
 # метод (естественно, без использования str.split())
 
 
-user_text = "Adfsfs, sdfsdfsd. Fdsfsdf! lkklllls lswllsls"
+USER_TEXT = "Adfsfs, sdfsdfsd. Fdsfsdf! lkklllls lswllsls"
 
 
 def split_text():
     user_list = []
-    for i in user_text:
+    for i in USER_TEXT:
         user_list.append(i)
     new_text = "".join(user_list)
     return new_text
